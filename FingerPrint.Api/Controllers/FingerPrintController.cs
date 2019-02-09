@@ -16,9 +16,7 @@ namespace FingerPrint.Api.Controllers
         [HttpPost("fingerprint")]
         public ActionResult<string> Post(IFormFile file)
         {
-
             var impl = new FingerPrintImpl();
-
 
             var content = file.OpenReadStream();
 
