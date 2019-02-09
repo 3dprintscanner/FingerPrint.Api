@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerPrint.Api", "FingerPrint.Api\FingerPrint.Api.csproj", "{A88111DA-B41F-4AE8-9130-C03219138080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fingerprint.Impl", "Fingerprint.Impl\Fingerprint.Impl.csproj", "{A3E490E6-3A27-4C44-93E0-B16871E7BF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88111DA-B41F-4AE8-9130-C03219138080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88111DA-B41F-4AE8-9130-C03219138080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88111DA-B41F-4AE8-9130-C03219138080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88111DA-B41F-4AE8-9130-C03219138080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E490E6-3A27-4C44-93E0-B16871E7BF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E490E6-3A27-4C44-93E0-B16871E7BF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E490E6-3A27-4C44-93E0-B16871E7BF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E490E6-3A27-4C44-93E0-B16871E7BF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF39FA3E-3E3D-495E-8533-36E90BCF5A5C}
+	EndGlobalSection
+EndGlobal
